@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name vco)(type KiCad)(uri "$(KIPRJMOD)/vco.pretty")(options "")(descr ""))
+)
