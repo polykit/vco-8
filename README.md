@@ -21,10 +21,15 @@ There are two powering options. First is 16-pin Eurorack with +12V, -12V and +5V
 
 Use the power supply that you are going to use later on for tuning. Otherwise you might need to tune it again. I used a tuning device for this but also a tuning app for your mobile will work just fine. This is how I tuned the oscillators:
 
-- Turn it on and wait at least 15 minutes before you start tuning
-- Tune all oscillators roughly to a base note, eg. `C4`. Do this by applying the correct CV input and adjusting the offset trim pot.
-- Next is to get the right scale. Start with the first oscillator and adjust scale until you have the correct interval between two notes, eg. your base note `C4` and `D4`. While changing scale overall tuning will change, so go back to your base note from time to time by adjusting the offset. When your are quite close to the correct scale fine tune it for a whole ocatve, eg. using notes `C4` and `C5`. Proceed with the next oscillator.
-- Start again with the first oscillator until everything is in tune. Usually you only need to adjust offset for this.
+* Turn it on and wait at least 15 minutes before you start tuning
+* Tune all oscillators roughly to a base note, eg. `C4`. Do this by applying the correct CV input and adjusting the offset trim pot.
+* Next is to get the right scale. Start with the first oscillator and adjust scale until you have the correct interval between two notes, eg. your base note `C4` and `D4`. While changing scale overall tuning will change, so go back to your base note from time to time by adjusting the offset. When your are quite close to the correct scale fine tune it for a whole ocatve, eg. using notes `C4` and `C5`. Proceed with the next oscillator.
+* Start again with the first oscillator until everything is in tune. Usually you only need to adjust offset for this.
+
+## Tweaks
+
+* Use ferrite beads or just jumpers instead of the 10R resistors for R3, R4 and R5. There is a significant voltage drop over the resistors leading to a lower peak-to-peak amplitude.
+* Use 22µ polarized caps instead of 1µ non-polarized ones. The positive side (+) of the cap is torwards the op-amp and negative (-) to the output. I had the impression that it gives you a nicer ramp signal on the output.
 
 ## BOM
 
